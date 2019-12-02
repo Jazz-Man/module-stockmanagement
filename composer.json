@@ -2,7 +2,10 @@
     "name": "upmedio/module-stockmanagement",
     "description": "hotfix for \"main.CRITICAL: Notice: Undefined index: product_id /vendor/magento/module-catalog-inventory/Model/StockManagement.php\"",
     "type": "magento2-module",
-    "license": "proprietary",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
     "authors": [
         {
             "name": "Mage2Gen",
@@ -18,5 +21,8 @@
         "psr-4": {
             "UpMedio\\StockManagement\\": ""
         }
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
     }
 }
